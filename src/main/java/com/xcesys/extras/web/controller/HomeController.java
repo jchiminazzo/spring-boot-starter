@@ -62,5 +62,11 @@ public class HomeController {
 	public String welcome(Map<String, Object> model) {
 		return "pages/index";
 	}
+	
+	@GetMapping("/test")
+	public String test(Map<String, Object> model) {
+		return "pages/index";
+	}
 
 }
+
